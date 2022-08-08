@@ -67,7 +67,7 @@ export default class Documentation extends Component {
                       "https://github.com/DouglasVolcato/avengers-api/blob/master/mocks/images/1.png?raw=true",
                     </p>
                     <p style={{ margin: "auto", maxWidth: "98%" }}>
-                      "Co-Founder of the main Avengers team. Former member of
+                      "notes": "Co-Founder of the main Avengers team. Former member of
                       the New Avengers, Pym's Mighty Avengers, and the
                       Fifty-States Initiative Mighty Avengers. An alternate
                       adolescent version of the original replaced him for a time

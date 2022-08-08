@@ -12,14 +12,16 @@ export default class Navbar extends Component {
           className="App-logo"
           alt="logo"
         />
-        <h1 style={{ textAlign: "center" }}>Avengers API</h1>
+        <h1 style={{ textAlign: "center", fontSize: "3vw" }}>Avengers API</h1>
         <br />
         <nav style={{ display: "flex", justifyContent: "space-evenly" }}>
           <button
-            onClick={() => {this.props.changePage(1)}}
+            onClick={() => {
+              this.props.changePage(1);
+            }}
             type="button"
             style={{
-              fontSize: "20px",
+              fontSize: "2vw",
               padding: "0.5vw",
               cursor: "pointer",
               backgroundColor: "teal",
@@ -29,17 +31,19 @@ export default class Navbar extends Component {
             Documentation
           </button>
           <button
-            onClick={() => {this.props.changePage(2)}}
+            onClick={() => {
+              this.props.changePage(2);
+            }}
             type="button"
             style={{
-              fontSize: "20px",
+              fontSize: "2vw",
               padding: "0.5vw",
               cursor: "pointer",
               backgroundColor: "teal",
               color: "white",
             }}
           >
-            Avenger List
+            Characters
           </button>
         </nav>
         <br /> <br />
