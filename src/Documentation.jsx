@@ -10,7 +10,7 @@ export default class Documentation extends Component {
               <div></div>
               <div>
                 <section>
-                  <h2>Usage</h2>
+                  <h2>Documentation</h2>
                   <p>Returns the hole list of the Avengers:</p>
                   <div
                     style={{
@@ -80,34 +80,6 @@ export default class Documentation extends Component {
               <div></div>
             </div>
           </div>
-
-          <footer
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              flexWrap: "wrap",
-              backgroundColor: "#000000",
-              Color: "white",
-              padding: "15px",
-              width: "98%",
-            }}
-          >
-            <div style={{ margin: "auto" }}>
-              This is not an official API from Marvel
-            </div>
-            <div style={{ margin: "auto", display: "flex" }}>
-              <div style={{ margin: "auto", marginRight: "5px" }}>
-                Made by Douglas Volcato
-              </div>
-              <a href="https://github.com/DouglasVolcato" target="_blank">
-                <img
-                  style={{ width: "50px", margin: "auto" }}
-                  src="https://douglasvolcato.github.io/portfolio-DouglasVolcato/assets/images/Logo-Github.png"
-                  alt=""
-                />
-              </a>
-            </div>
-          </footer>
         </div>
       </div>
     );

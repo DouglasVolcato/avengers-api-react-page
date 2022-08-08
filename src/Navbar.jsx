@@ -16,6 +16,8 @@ export default class Navbar extends Component {
         <br />
         <nav style={{ display: "flex", justifyContent: "space-evenly" }}>
           <button
+            onClick={() => {this.props.changePage(1)}}
+            type="button"
             style={{
               fontSize: "20px",
               padding: "0.5vw",
@@ -27,6 +29,8 @@ export default class Navbar extends Component {
             Documentation
           </button>
           <button
+            onClick={() => {this.props.changePage(2)}}
+            type="button"
             style={{
               fontSize: "20px",
               padding: "0.5vw",
